@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{F0E189E9-7F55-4DD7-8578-92CEE264F038}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProccessToDump", "ProccessToDump\ProccessToDump.csproj", "{DA42A492-ED4D-41CE-A8AD-8F1B11F8F7B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shreder.Collector", "..\Shreder\Shreder.Collector\Shreder.Collector.csproj", "{BCCA45A5-2A85-4A7D-AFD5-911B24DFF692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA42A492-ED4D-41CE-A8AD-8F1B11F8F7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA42A492-ED4D-41CE-A8AD-8F1B11F8F7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA42A492-ED4D-41CE-A8AD-8F1B11F8F7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA42A492-ED4D-41CE-A8AD-8F1B11F8F7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCA45A5-2A85-4A7D-AFD5-911B24DFF692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCA45A5-2A85-4A7D-AFD5-911B24DFF692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCA45A5-2A85-4A7D-AFD5-911B24DFF692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCA45A5-2A85-4A7D-AFD5-911B24DFF692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA42A492-ED4D-41CE-A8AD-8F1B11F8F7B7} = {F0E189E9-7F55-4DD7-8578-92CEE264F038}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB37D8D1-3F3F-4902-977B-6F4DD9C30BCB}
+	EndGlobalSection
+EndGlobal
