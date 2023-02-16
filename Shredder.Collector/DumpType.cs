@@ -1,13 +1,13 @@
-﻿public class DumpObject
+﻿class DumpType
 {
-    public DumpObject(string type, ulong size, IEnumerable<string> referencedTypes)
-    {
-        Type = type;
-        Size = size;
-        ReferencedTypes = referencedTypes;
-    }
+    public string Name { get; }
+    public int Count { get; }
+    public decimal Size { get; }
 
-    public string Type { get; }
-    public ulong Size { get; }
-    public IEnumerable<string> ReferencedTypes { get; }
+    public DumpType(string typeName, int count, decimal size)
+    {
+        Name = typeName;
+        Count = count;
+        Size = size;
+    }
 }
