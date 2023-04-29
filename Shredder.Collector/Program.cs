@@ -2,6 +2,7 @@
 using Microsoft.Diagnostics.Runtime;
 using System.Diagnostics;
 using System.Globalization;
+using Shredder.Common;
 
 Console.WriteLine("Starting memory dump essence extraction...");
 

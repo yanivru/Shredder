@@ -1,4 +1,6 @@
-﻿public class DumpObject
+﻿namespace Shredder.Common;
+
+public class DumpObject
 {
     public DumpObject(string type, ulong size, IEnumerable<string> referencedTypes)
     {

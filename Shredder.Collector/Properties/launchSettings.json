@@ -1,7 +1,8 @@
 {
   "profiles": {
     "Shreder": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "c:\\temp\\Varonis.Enricher.Cifs.FabricService_azeu2-dev-sf0306-13-2022-0210.dmp"
     }
   }
 }

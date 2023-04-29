@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Shredder.AggregatedStats": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Temp\\"
+    }
+  }
+}

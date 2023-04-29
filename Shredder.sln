@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProccessToDump", "ProccessT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shredder.Collector", "Shredder.Collector\Shredder.Collector.csproj", "{66CD65FC-8850-4C73-AB08-82AF73CF6747}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shredder.AggregatedStats", "Shredder.AggregatedStats\Shredder.AggregatedStats.csproj", "{AB9D4531-BB52-41C8-8F14-B2540E7E7797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shredder.Common", "Shredder.Common\Shredder.Common.csproj", "{A465C2E6-FB19-4E6E-BBB5-60061444EC44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{66CD65FC-8850-4C73-AB08-82AF73CF6747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66CD65FC-8850-4C73-AB08-82AF73CF6747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66CD65FC-8850-4C73-AB08-82AF73CF6747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9D4531-BB52-41C8-8F14-B2540E7E7797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9D4531-BB52-41C8-8F14-B2540E7E7797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9D4531-BB52-41C8-8F14-B2540E7E7797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9D4531-BB52-41C8-8F14-B2540E7E7797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A465C2E6-FB19-4E6E-BBB5-60061444EC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A465C2E6-FB19-4E6E-BBB5-60061444EC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A465C2E6-FB19-4E6E-BBB5-60061444EC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A465C2E6-FB19-4E6E-BBB5-60061444EC44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
