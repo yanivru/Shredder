@@ -1,7 +1,8 @@
 {
   "profiles": {
     "Shreder": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "--dump-file-path c:\\temp"
     }
   }
 }
